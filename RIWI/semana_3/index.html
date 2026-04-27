@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="shortcut icon" href="imagenes/icono_pestaña.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- ENCABEZADO -->
+    <header class="headerportafolio">
+        <nav class="navbar">
+            <h1>Moises Alfredo Gutierrez Haad</h1>
+
+            <ul class="listasportafolio">
+                <li><a href="#sobre-mi"><strong>Sobre mí</strong></a></li>
+                <li><a href="#proyectos"><strong>Proyectos</strong></a></li>
+                <li><a href="#contacto"><strong>Contacto</strong></a></li>
+                <li><a href="mascotas.html"><strong>Mascotas</strong></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main>
+
+        <!-- SOBRE MI -->
+        <section id="sobre-mi">
+            <h2>Sobre mí</h2>
+            <p id="textoSobreMi" class="parrafodemi">
+                Soy una persona en proceso de crecimiento, enfocada en mejorar mi futuro a través del aprendizaje, especialmente en programación. 
+                Tengo experiencia en atención al cliente, lo que me ha ayudado a desarrollar habilidades para comunicarme y entender a los demás. 
+                Me considero creativo, con interés en escribir y explorar ideas nuevas. Busco ser práctico, organizado y aprovechar bien mi tiempo 
+                para avanzar hacia mis metas.
+            </p>
+
+            <button id="btnCambiarTexto">Cambiar descripción</button>
+        </section>
+
+        <!-- PROYECTOS -->
+        <!-- PROYECTOS -->
+<section id="proyectos">
+    <h2>Proyectos</h2>
+
+    <div class="proyectos-grid">
+        <article class="card">
+            <h3>Restaurante</h3>
+            <p>Proyecto de página web para un restaurante moderno.</p>
+        </article>
+
+        <article class="card">
+            <h3>Negocio</h3>
+            <p>Idea de negocio enfocada en ventas digitales.</p>
+        </article>
+
+        <article class="card">
+            <h3>Vida tranquila</h3>
+            <p>Proyecto personal enfocado en bienestar y organización.</p>
+        </article>
+    </div>
+</section>
+
+
+        <!-- CONTACTO -->
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <article>
+                <form>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+
+                    <label for="correo">Correo:</label>
+                    <input type="email" id="correo" name="correo" required>
+                    <button type="submit">Enviar</button>
+                </form>
+            </article>
+        </section>
+
+    </main>
+
+    <footer>
+        &copy; Moises Alfredo Gutierrez Haad
+    </footer>
+
+    <script src="script.js"> </script>
+</body>
+</html>

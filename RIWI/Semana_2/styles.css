@@ -1,0 +1,171 @@
+/* RESET GENERAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ESTILO GENERAL DEL BODY */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(imagenes/FondoBody.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #333;
+}
+
+/* HEADER */
+.headerportafolio{
+    background-image: url(imagenes/portafoliofondo.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+/* NAVBAR */
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    gap: 20px;
+}
+
+/* TITULO */
+h1{
+    font-size: 35px;
+    color: white;
+}
+
+/* MENU */
+.listasportafolio{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+/* LINKS */
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* HOVER */
+a:hover{
+    color: #007BFF;
+    border-bottom: 2px solid #007BFF;
+}
+
+/* SECCIONES */
+section{
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: 30px;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+/* TITULOS DE SECCIÓN */
+h2{
+    margin-bottom: 15px;
+}
+
+/* PÁRRAFO SOBRE MÍ */
+.parrafodemi{
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* PROYECTOS */
+.linkproyectos{
+    list-style: none;
+}
+
+.linkproyectos li{
+    margin-bottom: 10px;
+}
+
+/* FORMULARIO */
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 300px;
+}
+
+input{
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+    background-color: #0056b3;
+}
+
+/* GALERÍA DE MASCOTAS */
+.galeria-mascotas{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* TARJETAS DE MASCOTAS */
+article{
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+}
+
+/* IMÁGENES */
+img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.proyectos-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 24px;
+}
+
+.card{
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+    transition: transform 0.3s;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+.galeria-mascotas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}

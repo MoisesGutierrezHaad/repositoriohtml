@@ -19,3 +19,13 @@
 ├── Procfile                      # For Railway  
 ├── render.yaml                   # For Render.com  
 └── README.md
+
+
+**DICCIONARIO**
+https://www.eniun.com/resumen-tabla-propiedades-css-valores/
+
+**FONDO EXTRAIDO DESDE OTRA PAGINA**
+https://heropatterns.com/
+
+**LINK DE DONDE TOMO LOS ICONOS O IMAGENES**
+https://cdnjs.com/libraries/font-awesome/5.15.0

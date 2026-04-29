@@ -4,5 +4,5 @@ https://github.com/UskoKruM/cssgrid-flexbox-ejemplo-practico
 
 
 **NEGRITA**
-'''COMIDA
-´´´ESPAGUETE #ESTO ES UNA PRUEBA 
+'''COMIDA´´´
+´´´ESPAGUETE #ESTO ES UNA PRUEBA´´´
